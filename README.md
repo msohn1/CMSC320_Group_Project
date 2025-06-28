@@ -30,3 +30,25 @@ Answering these questions and understanding any connections can help guide stude
 
 _Data transformation for analysis here (database setup and use SQL to query for data, or organize a pandas DataFrame)_<br>
 
+## Exploratory Data Analysis
+_See checkpoint2.py_<br>
+Key steps:<br>
+• Computed conditional probabilities using Bayes' Theorem<br>
+• Investigated Spearman correlations between friend count and GPA<br>
+• Conducted hypothesis testing for associates between media use and exam performance<br>
+
+While there is a mild positive associate between social connectivity and performance, most performance variation is explained by other factors.<br>
+
+## Primary Analysis
+We framed the problem as a classification task. Can we predict whether a student performs well (e.g., good/excellent) or poorly based on their social metrics?<br>
+
+Approach:<br>
+• Binary classification using Logistic Regression<br>
+• Input features: Number of friends, social hours, media use, extracurricular involvement<br>
+• Evaluated using accuracy precision, recall<br>
+
+_Model details here_
+
+## Visualization (Plots)
+
+## Insights and Conclusion
